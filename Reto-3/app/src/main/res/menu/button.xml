@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/action_new_game"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:orderInCategory="100"
+        android:title="@string/action_new_game" />
+
+    <item
+        android:id="@+id/action_new_game1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:orderInCategory="100"
+        android:title="@string/action_new_game" />
+    <item
+        android:id="@+id/action_new_game2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:orderInCategory="100"
+        android:title="@string/action_new_game" />
+    <item
+        android:id="@+id/action_new_game3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:orderInCategory="100"
+        android:title="@string/action_new_game" />
+    <item
+        android:id="@+id/action_new_game4"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:orderInCategory="100"
+        android:title="@string/action_new_game" />
+    <item
+        android:id="@+id/action_new_game5"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:orderInCategory="100"
+        android:title="@string/action_new_game" />
+
+</menu>
