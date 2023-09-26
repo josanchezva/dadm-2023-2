@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center_horizontal" >
+
+    <co.edu.unal.tictactoe.BoardView
+        android:id="@+id/board"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_marginTop="5dp"/>
+    <TextView android:id="@+id/information" android:layout_width="fill_parent"
+        android:layout_height="wrap_content" android:text="info"
+        android:gravity="center_horizontal" android:layout_marginTop="20dp"
+        android:textSize="20dp" />
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/new_game"
+            android:layout_width="138dp"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/nuevo_juego"
+            android:drawableStart="@drawable/new_game"
+            android:text="@string/action_new_game"
+            android:title="@string/new_game" />
+
+        <Button
+            android:id="@+id/ai_difficulty"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableStart="@drawable/difficulty_level"
+            android:text="@string/action_difficulty"
+            android:title="Difficulty" />
+
+        <Button
+            android:id="@+id/quit"
+            android:layout_width="138dp"
+            android:layout_height="wrap_content"
+            android:drawableStart="@drawable/quit_game"
+            android:text="@string/action_quit"
+            android:title="Quit" />
+    </TableRow>
+
+</LinearLayout>
