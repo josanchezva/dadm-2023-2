@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Reto 8: SQLite</string>
+    <string name="action_settings">Settings</string>
+    <string name="Add_New">Agregar</string>
+    <string name="edit">Editar Empresa</string>
+    <string name="delete">Borrar Empresa</string>
+    <string name="title_activity_display_contact">DisplayContact</string>
+    <string name="name">Nombre</string>
+    <string name="phone">Telefono</string>
+    <string name="email">Email</string>
+    <string name="save">Guardar Empresa</string>
+    <string name="deleteContact">¿Está seguro de borrar la empresa?.</string>
+    <string name="yes">Si</string>
+    <string name="no">No</string>
+    <string name="title_activity_main2">MainActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="usando_sqlite">Reto 8: SQLite</string>
+    <string name="moviles">Aplicaciones Móviles</string>
+    <string name="web_page">URL</string>
+    <string name="servicios">Productos y Servicios</string>
+    <string name="clasificacion">Clasificación</string>
+</resources>
